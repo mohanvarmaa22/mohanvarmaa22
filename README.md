@@ -31,7 +31,6 @@ Before that, I automated LLM evaluation with DeepEval and MLflow, and built a Do
 | [laya-finetuning](https://github.com/mohanvarmaa22/laya-finetuning) | Fine-tuned a prompt safety classifier on BeaverTails. Accuracy rose from 51–57% at baseline to 75% on a balanced 400-prompt test set, and calibration error fell to 0.035, at 34 ms per prompt. | Python, PyTorch DDP, Kaggle 2×T4 |
 | [Decision-logs](https://github.com/mohanvarmaa22/Decision-logs) | Keeps the "why" behind AI-written code. Captures short decision notes from Claude Code sessions, secret-scans them and stores them locally. *Prototype, in active development.* | Go, Claude Code plugin |
 | [jev-testing](https://github.com/mohanvarmaa22/jev-testing) | Experiments with Jev decision models through Vercel AI Gateway: choice routing, safety gating and ticket priority scoring. | Python |
-| [aws-devops-challenge](https://github.com/mohanvarmaa22/aws-devops-challenge) | FastAPI service deployed end to end as a non-root container, with quotas, a hardened Helm chart and CI validation. | Terraform, Helm, Kubernetes, GitHub Actions |
 
 ## Tech I use
 
