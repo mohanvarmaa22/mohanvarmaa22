@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 520" width="1280" height="520" role="img" aria-labelledby="title desc">
+  <title id="title">AI Gateway overview</title>
+  <desc id="desc">Enterprise applications and the Agentic Platform reach LLM, embedding, reranker and Laya decision models through one governed gateway, served across five regions.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f4f5f0; }
+    .label { font-size: 13px; font-weight: 600; letter-spacing: 2px; fill: #e0a02e; }
+    .name { font-size: 17px; font-weight: 600; }
+    .sub { font-size: 14px; fill: #c9ced8; }
+    .box { fill: #2c3444; stroke: #4a5468; }
+    .route { fill: none; stroke: #e0a02e; stroke-width: 2; stroke-dasharray: 6 10; animation: flow 1.6s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -32; } }
+    @media (prefers-reduced-motion: reduce) { .route { animation: none; } }
+  </style>
+  <rect width="1280" height="520" rx="16" fill="#1e2430"/>
+
+  <text x="40" y="52" class="label">CLIENTS</text>
+  <text x="400" y="52" class="label">GOVERNED ENDPOINT</text>
+  <text x="980" y="52" class="label">MODELS</text>
+
+  <path class="route" d="M300 160 H400"/>
+  <path class="route" d="M300 300 H400"/>
+  <path class="route" d="M880 106 H980"/>
+  <path class="route" d="M880 188 H980"/>
+  <path class="route" d="M880 270 H980"/>
+  <path class="route" d="M880 352 H980"/>
+
+  <rect class="box" x="40" y="120" width="260" height="80" rx="10"/>
+  <text x="60" y="155" class="name">30+ enterprise apps</text>
+  <text x="60" y="178" class="sub">Direct product integrations</text>
+  <rect class="box" x="40" y="260" width="260" height="80" rx="10"/>
+  <text x="60" y="295" class="name">Agentic Platform</text>
+  <text x="60" y="318" class="sub">Internal agents</text>
+
+  <rect x="400" y="70" width="480" height="320" rx="14" fill="#262d3b" stroke="#e0a02e" stroke-width="2"/>
+  <text x="640" y="110" font-size="24" font-weight="700" text-anchor="middle">AI Gateway</text>
+  <text x="640" y="134" class="sub" text-anchor="middle">One endpoint, many models</text>
+
+  <rect class="box" x="420" y="155" width="215" height="70" rx="8"/>
+  <text x="436" y="184" class="name">Access control</text>
+  <text x="436" y="206" class="sub">JWT / JWKS, tenant whitelists</text>
+  <rect class="box" x="645" y="155" width="215" height="70" rx="8"/>
+  <text x="661" y="184" class="name">Limits</text>
+  <text x="661" y="206" class="sub">Rate limits and quotas</text>
+  <rect class="box" x="420" y="235" width="215" height="70" rx="8"/>
+  <text x="436" y="264" class="name">Safety</text>
+  <text x="436" y="286" class="sub">Guardrails, PII anonymization</text>
+  <rect class="box" x="645" y="235" width="215" height="70" rx="8"/>
+  <text x="661" y="264" class="name">Routing</text>
+  <text x="661" y="286" class="sub">Hot-reloadable config</text>
+
+  <rect x="420" y="320" width="440" height="50" rx="8" fill="#e0a02e"/>
+  <text x="640" y="350" font-size="14" font-weight="600" text-anchor="middle" style="fill:#1e2430">Fail-open: requests survive downstream failures</text>
+
+  <rect class="box" x="980" y="70" width="260" height="72" rx="10"/>
+  <text x="1000" y="101" class="name">LLMs</text>
+  <text x="1000" y="124" class="sub">Anthropic, OpenAI, Amazon, GLM</text>
+  <rect class="box" x="980" y="152" width="260" height="72" rx="10"/>
+  <text x="1000" y="183" class="name">Embeddings</text>
+  <text x="1000" y="206" class="sub">Self-hosted, Amazon Titan</text>
+  <rect class="box" x="980" y="234" width="260" height="72" rx="10"/>
+  <text x="1000" y="265" class="name">Rerankers</text>
+  <text x="1000" y="288" class="sub">Served via TEI</text>
+  <rect class="box" x="980" y="316" width="260" height="72" rx="10"/>
+  <text x="1000" y="347" class="name">Laya</text>
+  <text x="1000" y="370" class="sub">Fast classification decisions</text>
+
+  <rect class="box" x="40" y="420" width="1200" height="72" rx="10"/>
+  <text x="64" y="462" class="name">Multi-region, strict data residency</text>
+  <g font-size="14" font-weight="600" text-anchor="middle">
+    <rect x="480" y="438" width="64" height="36" rx="18" fill="#e0a02e"/><text x="512" y="461" style="fill:#1e2430">US</text>
+    <rect x="556" y="438" width="64" height="36" rx="18" fill="#e0a02e"/><text x="588" y="461" style="fill:#1e2430">EU</text>
+    <rect x="632" y="438" width="64" height="36" rx="18" fill="#e0a02e"/><text x="664" y="461" style="fill:#1e2430">UK</text>
+    <rect x="708" y="438" width="64" height="36" rx="18" fill="#e0a02e"/><text x="740" y="461" style="fill:#1e2430">AU</text>
+    <rect x="784" y="438" width="64" height="36" rx="18" fill="#e0a02e"/><text x="816" y="461" style="fill:#1e2430">JP</text>
+  </g>
+  <text x="1216" y="461" class="sub" text-anchor="end">Observed with Splunk, S3 logs, New Relic</text>
+</svg>

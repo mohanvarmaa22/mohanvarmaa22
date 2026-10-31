@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-labelledby="title">
+  <title id="title">Mohan Varma, AI Engineer building production LLM platforms</title>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .route { fill: none; stroke: #e0a02e; stroke-width: 2; stroke-dasharray: 6 10; animation: flow 1.6s linear infinite; }
+    .hub { animation: pulse 3s ease-in-out infinite; transform-origin: 960px 160px; }
+    @keyframes flow { to { stroke-dashoffset: -32; } }
+    @keyframes pulse { 50% { transform: scale(1.12); opacity: .55; } }
+    @media (prefers-reduced-motion: reduce) { .route, .hub { animation: none; } }
+  </style>
+  <rect width="1280" height="320" rx="16" fill="#1e2430"/>
+
+  <text x="64" y="138" font-size="64" font-weight="700" fill="#f4f5f0">Mohan Varma</text>
+  <text x="64" y="188" font-size="26" fill="#f4f5f0">AI Engineer building production LLM platforms</text>
+  <text x="64" y="234" font-size="18" fill="#e0a02e" class="mono">gateways / guardrails / evals / RAG</text>
+
+  <path class="route" d="M780 70 C860 70 860 160 960 160"/>
+  <path class="route" d="M780 160 L960 160"/>
+  <path class="route" d="M780 250 C860 250 860 160 960 160"/>
+  <path class="route" d="M960 160 C1060 160 1060 50 1160 50"/>
+  <path class="route" d="M960 160 C1060 160 1060 123 1160 123"/>
+  <path class="route" d="M960 160 C1060 160 1060 197 1160 197"/>
+  <path class="route" d="M960 160 C1060 160 1060 270 1160 270"/>
+
+  <g fill="#2c3444" stroke="#f4f5f0" stroke-width="2">
+    <circle cx="780" cy="70" r="11"/>
+    <circle cx="780" cy="160" r="11"/>
+    <circle cx="780" cy="250" r="11"/>
+    <circle cx="1160" cy="50" r="11"/>
+    <circle cx="1160" cy="123" r="11"/>
+    <circle cx="1160" cy="197" r="11"/>
+    <circle cx="1160" cy="270" r="11"/>
+  </g>
+  <circle class="hub" cx="960" cy="160" r="46" fill="#e0a02e" opacity=".25"/>
+  <circle cx="960" cy="160" r="32" fill="#e0a02e"/>
+  <text x="960" y="167" font-size="20" font-weight="700" fill="#1e2430" text-anchor="middle">AI</text>
+</svg>
