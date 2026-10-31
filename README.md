@@ -35,7 +35,7 @@ Before that, I automated LLM evaluation with DeepEval and MLflow, and built a Do
 ## Tech I use
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,go,pytorch,fastapi,aws,kubernetes,docker,terraform,githubactions,prometheus,grafana&theme=dark" alt="Python, Go, PyTorch, FastAPI, AWS, Kubernetes, Docker, Terraform, GitHub Actions, Prometheus, Grafana">
+  <img src="https://skillicons.dev/icons?i=python,go,pytorch,fastapi,aws,kubernetes,docker,prometheus,grafana&theme=dark" alt="Python, Go, PyTorch, FastAPI, AWS, Kubernetes, Docker, Prometheus, Grafana">
 </p>
 
 - **GenAI:** AWS Bedrock, RAG, embeddings, rerankers, model routing, LangChain, Docling
